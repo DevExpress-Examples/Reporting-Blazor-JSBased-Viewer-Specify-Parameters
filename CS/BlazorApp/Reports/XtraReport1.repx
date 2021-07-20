@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.1.4.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.1, Version=21.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport1" PageWidth="850" PageHeight="1100" Version="21.1" Font="Arial, 9.75pt">
+  <Parameters>
+    <Item1 Ref="2" Description="String parameter:" ValueInfo="0" Name="strParam" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="3" ControlType="TopMarginBand" Name="TopMargin" />
+    <Item2 Ref="4" ControlType="BottomMarginBand" Name="BottomMargin" />
+    <Item3 Ref="5" ControlType="DetailBand" Name="Detail">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="label1" Multiline="true" Text="Parameter value: [?strParam]" TextAlignment="TopLeft" SizeF="650,50.08335" LocationFloat="0,0" Padding="2,2,0,0,100">
+          <StylePriority Ref="7" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

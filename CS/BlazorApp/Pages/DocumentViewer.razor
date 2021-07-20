@@ -1,0 +1,21 @@
+﻿@page "/documentviewer"
+
+<input @bind="paramValue" />
+
+<button @onclick="SubmitParameter">Submit</button>
+
+<DxDocumentViewer ReportName="@reportName" @ref="dxDocumentViewer" Height="1000px" Width="100%">
+</DxDocumentViewer>
+
+@code {
+    DxDocumentViewer dxDocumentViewer;
+    string reportName = "XtraReport1";
+    string paramValue = "0";
+
+    void SubmitParameter() {
+        string paramName = "strParam";
+        string paramQueryString = paramName + "=" + paramValue;
+
+        dxDocumentViewer.OpenReport(reportName + "?" + paramQueryString);
+    }
+}
