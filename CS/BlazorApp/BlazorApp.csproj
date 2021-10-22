@@ -12,8 +12,8 @@
     <EmbeddedResource Include="Reports\XtraReport1.vsrepx" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Blazor" Version="21.1.*-pre-*" />
-    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="21.1.*-pre-*" />
+    <PackageReference Include="DevExpress.Blazor" Version="21.2.3-pre-21295" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="21.2.3-pre-21295" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
