@@ -12,9 +12,10 @@
     <EmbeddedResource Include="Reports\XtraReport1.vsrepx" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Blazor" Version="23.1.*-*" />
-    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls.BlazorServer" Version="23.1.*-*" />
-    <PackageReference Include="DevExpress.Blazor.Themes" Version="23.1.*-*" />
+    <PackageReference Include="DevExpress.Blazor" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Blazor.Themes" Version="23.2.*-*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
