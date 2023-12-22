@@ -2,18 +2,11 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1020317)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Specify Parameter Values in a Blazor Reporting (JavaScript-Based) Application
+# Reporting for Blazor (JavaScript-Based Document Viewer) - Specify Parameter Values
 
-*Files to look at:*
+This example demonstrates how to submit parameter values on a button click.
 
-* [DocumentViewer.razor](CS/BlazorApp/Pages/DocumentViewer.razor)
-* Report name resolution services:
-	- [CustomReportProvider.cs](CS/BlazorApp/Services/CustomReportProvider.cs) (default)
-	- [CustomReportStorageWebExtension.cs](CS/BlazorApp/Services/CustomReportStorageWebExtension.cs#L47)
-
-Refer to the following topic for a detailed description of this example: [Specify Parameter Values in a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/403243?v=21.1).
-
-# How to Run the Example
+## How to Run the Example
 
 1. Download the project and update NuGet packages.
 2. Build and run the project.
@@ -22,6 +15,13 @@ Refer to the following topic for a detailed description of this example: [Specif
 
 ![](Images/specify-parameter-values-in-blazor-app.png)
 
-# See Also
+## Files to Review
 
-* [Create a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/401677?v=21.1)
+* [DocumentViewer.razor](CS/BlazorApp/Pages/DocumentViewer.razor)
+* Report name resolution services:
+	- [CustomReportProvider.cs](CS/BlazorApp/Services/CustomReportProvider.cs) (default)
+	- [CustomReportStorageWebExtension.cs](CS/BlazorApp/Services/CustomReportStorageWebExtension.cs#L47)
+## Documentation
+
+* [Create a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/401677)
+* [Specify Parameter Values in a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/403243)
