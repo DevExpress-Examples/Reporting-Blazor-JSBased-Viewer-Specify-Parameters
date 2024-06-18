@@ -1,4 +1,4 @@
-using DevExpress.XtraReports.Services;
+﻿using DevExpress.XtraReports.Services;
 using DevExpress.XtraReports.UI;
 using BlazorApp.Reports;
 using System;
@@ -6,6 +6,7 @@ using System.Web;
 
 namespace BlazorApp.Services {
     public class CustomReportProvider : IReportProvider {
+        #region GetReportMethod
         public XtraReport GetReport(string id, ReportProviderContext context) {
             // Parse the string with the report name and parameter values.
             string[] parts = id.Split('?');
@@ -42,5 +43,6 @@ namespace BlazorApp.Services {
 
             return report;
         }
+        #endregion
     }
 }
