@@ -1,3 +1,4 @@
+﻿#region usings
 using System;
 using Microsoft.AspNetCore.Hosting;
 using System.Collections.Generic;
@@ -6,6 +7,7 @@ using System.Linq;
 using DevExpress.XtraReports.UI;
 using DevExpress.XtraReports.Web.Extensions;
 using System.Web;
+#endregion
 
 namespace BlazorApp.Services {
     public class CustomReportStorageWebExtension : ReportStorageWebExtension {
@@ -43,6 +45,7 @@ namespace BlazorApp.Services {
             return Path.GetFileName(url) == url;
         }
 
+        #region parseUrlAndApplyParametersToReport
         public override byte[] GetData(string url) {
             try {
                 // Parse the string with the report name and parameter values.
@@ -90,6 +93,7 @@ namespace BlazorApp.Services {
             throw new DevExpress.XtraReports.Web.ClientControls.FaultException(
                 string.Format("Could not find report '{0}'.", url));
         }
+        #endregion
 
         public override Dictionary<string, string> GetUrls() {
             // Returns a dictionary of the existing report URLs and display names. 
