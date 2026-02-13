@@ -28,7 +28,7 @@ This example demonstrates how to submit parameter values on a button click.
 * [Create a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/401677)
 * [Specify Parameter Values in a Blazor Reporting (JavaScript-Based) Application](https://docs.devexpress.com/XtraReports/403243)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=Reporting-Blazor-JSBased-Viewer-Specify-Parameters&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=Reporting-Blazor-JSBased-Viewer-Specify-Parameters&~~~was_helpful=no)
 
